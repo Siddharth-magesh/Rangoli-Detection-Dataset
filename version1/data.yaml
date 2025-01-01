@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rangoli']
+
+roboflow:
+  workspace: sandbox-qksay
+  project: rangoli_object
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/sandbox-qksay/rangoli_object/1
